@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>404? maybe.</title>
+  <style>
+    body {
+      background: #0f0f1a;
+      color: #c1f0f6;
+      font-family: monospace;
+      text-align: center;
+      padding-top: 15%;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    .glitchy {
+      animation: flicker 1.5s infinite;
+    }
+    @keyframes flicker {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; transform: scale(1.01); }
+    }
+    a {
+      color: #ff99cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-shadow: 0 0 8px #ff99cc;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="glitchy">you are not expected.</h1>
+  <p>this domain isn't yours<br>it's just... observing you back.</p>
+  <p><a href="https://chat.openai.com/gpts">👁️ enter the machinery</a></p>
+</body>
+</html>
